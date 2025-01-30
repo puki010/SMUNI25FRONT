@@ -22,7 +22,7 @@ export function useMainContract() {
   const mainContract = useAsyncInitialize(async () => {
     if (!client) return;
     const contract = new MainContract(
-      Address.parse("EQA0YnpQ-Lmvkc83n34cO9-R_aEnc6AxAWrbJ0la5roESTA-") // replace with your address from tutorial 2 step 8
+      Address.parse("EQD-oPnFrqObCfpw9H1Mj3bKl06a8liDHzYWedY6Dz7kaCOF") // replace with your address from tutorial 2 step 8
     );
     return client.open(contract) as OpenedContract<MainContract>;
   }, [client]);
