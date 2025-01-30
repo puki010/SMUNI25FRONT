@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react(), nodePolyfills()],
   base: '/SMUNI25FRONT/',
   server: {
-    allowedHosts: ['notably-fair-whippet.ngrok-free.app'],
+    allowedHosts: [''],
   }
 });
 
