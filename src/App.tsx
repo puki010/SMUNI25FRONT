@@ -6,10 +6,7 @@ import { useTonConnect } from "./hooks/useTonConnect";
 
 function App() {
   const {
-    counter_value,
-    sendIncrement,
     sendDeposit,
-    sendWithdrawalRequest,
   } = useMainContract();
   const { connected } = useTonConnect();
 
