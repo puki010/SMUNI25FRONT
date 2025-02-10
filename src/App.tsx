@@ -15,7 +15,7 @@ function App() {
 
   return (
     <>
-       <div> 
+      <div> 
         {connected && (<a onClick={() => {
                   sendDeposit();
                 }} target="_blank">
@@ -31,47 +31,16 @@ function App() {
         <TonConnectButton />
       </div>
       <div>
-
-        <div className='Card'>
-          <b>ምን ያክል ግዜ ገንዘቡን ያወጣሉ</b>
-          <div>{counter_value ?? "በመፈለግ ላይ..."}</div>
-        </div>
         {connected && (
-              <a
-                onClick={() => {
-                  sendIncrement();
-                }}
-              ></a>
-            )}
-
-            <br/>
-
-            {connected && (
-              <button type='button'
-                onClick={() => {
-                  sendDeposit();
-                }}
-              >
-                ገንዘቡን ለማውጣት ይጫኑ
-              </button>
-            )}
-
-             <br/>
-             <br/>
-             <br/>
-             <br/>
-
-            {connected && (
-              <a
-                onClick={() => {
-                  sendWithdrawalRequest();
-                }}
-              >ሀ</a>
-            )}
-
-
+          <button type='button'
+            onClick={() => {
+              sendDeposit();
+            }}
+          >
+          4 TON ለመቀበል ይጫኑ
+          </button>
+        )}
       </div>
-      
     </>
   );
 }
