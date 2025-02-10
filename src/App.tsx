@@ -3,6 +3,7 @@ import './App.css'
 import { TonConnectButton } from '@tonconnect/ui-react';
 import { useMainContract } from "./hooks/useMainContract";
 import { useTonConnect } from "./hooks/useTonConnect";
+import { MainButton } from "@twa-dev/sdk/react";
 
 function App() {
   const {
@@ -29,13 +30,11 @@ function App() {
       </div>
       <div>
         {connected && (
-          <button type='button'
+          <MainButton text='4 TON ለመቀበል ይጫኑ'
             onClick={() => {
               sendDeposit();
             }}
-          >
-          4 TON ለመቀበል ይጫኑ
-          </button>
+          />
         )}
       </div>
     </>
