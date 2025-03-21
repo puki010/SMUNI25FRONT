@@ -47,3 +47,9 @@
 .reward {
   color: green;
 }
+.bigger {
+  font-size: larger;
+}
+.smaller {
+  font-size: smaller;
+}
