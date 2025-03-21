@@ -1,4 +1,4 @@
-import reactLogo from '/smuni25.svg'
+import reactLogo from '/smuni25.png'
 import './App.css'
 import { TonConnectButton } from '@tonconnect/ui-react';
 import { useMainContract } from "./hooks/useMainContract";
