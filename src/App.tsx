@@ -20,7 +20,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div> 
-      <h2 className="reward smaller">congratulations🎉️</h2>
+      <p className="reward smaller">congratulations🎉️</p>
       <h1 className='reward bigger'>+0.1 TON</h1>
       <p className="read-the-docs">
       ከታች ያለውን Connect Wallet የሚለውን በመንካት ዋሌት አድሬሶን አስመዝግበውን ገንዘብዎን ማውጣት ይችላሉ።

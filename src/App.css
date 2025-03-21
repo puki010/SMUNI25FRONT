@@ -49,7 +49,5 @@
 }
 .bigger {
   font-size: larger;
-}
-.smaller {
-  font-size: smaller;
+  font-weight: bold;
 }
